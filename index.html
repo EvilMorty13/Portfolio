@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="fontawesome/all.min.css">
+    <link rel="stylesheet" href="fontawesome/fontawesome.min.css">
+
+    <link rel="stylesheet" href="devicon.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div id="header">
+        <div class="header-content">
+            <a href="images/logo.png" target="_blank" class="logo"><img class="logo-img" src="images/logo.png" alt="logo"></a>
+            
+            <nav>
+                <ul class="nav-list">
+                   <li class="nav-item">
+                        <a href="#home" class="nav-link active">Home</a>
+                   </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                   </li>
+                   <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                   </li>
+                   <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                   </li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+
+
+    <section class="sect" id="home">
+        <div class="home_text">
+            <h3>Hi, it's Me</h3>
+            <h1>Avik <span>Singha</span></h1>
+            <h3>And I'm a <span class="auto-type"></span></h3>
+        </div>
+        <div class="home_pic">
+            <img class="home_img" src="images/home.png">
+        </div>
+    </section>
+
+
+    <section class="sect" id="about">
+        <h1 class="sub-title">About Me</h1>
+
+        <div class="about_maincontainer">
+
+            <div class="about_deatils">
+                <p>I am currently studying Software Engineering in Shahjalal University of Science and Technology (SUST).
+                Trying to learn as much as possible about the Software world. I am interested to work in web and game development 
+                in the future </p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link "onclick="opentab('education')" >Education</p>
+                    <p class="tab-links"onclick="opentab('hobbies')" >Hobbies</p>
+                    
+                </div>  
+
+                <div class="tab-contents  active-tab" id="education">
+                    <ul>
+                        <li><span>2019-20*</span><br>B.Sc in Software Engineering from SUST,Sylhet<br>CGPA - 3.78</br></li>
+                        <li><span>2019</span><br>HSC from Murari Chand College,Sylhet<br>GPA - 5.00</br></li>
+                        <li><span>2017</span><br>SSC from Blue Bird High School & College,Sylhet<br>GPA - 5.00</br></li>
+                    </ul>
+                </div>  
+ 
+                <div class="tab-contents" id="hobbies">
+                    <ul>
+                        <li><span>Reading</span><br>I like to read fiction and history</li>
+                        <li><span>Video Games</span><br>Open world and sports video games are my favourite</li>
+                        <li><span>Cycling</span><br>I prefer to use cycle for transport instead of cars</li>
+                    </ul>
+                </div>  
+
+            </div>
+
+            <div class="about_pic">
+                <img class="about_img" src="images/about_me.png">
+            </div>
+
+        </div>
+
+    </section>
+    
+    <section class="sect" id="skills"> 
+        <h1 class="sub-title">Skills</h1>
+        
+        <div class="skills_maincontainer">
+    
+            <div class="skills_container skills_container1">
+                <h1 class="skill_heading">Competitive Programming</h1>
+                <div class="skills_subcontainer skills_container11">
+                    <div class="card">
+                        <i class="devicon-c-plain colored"></i>
+                        <h1>C</h1>
+                    </div>
+            
+                    <div class="card">
+                        <i class="devicon-cplusplus-plain colored"></i>
+                        <h1>C++</h1>
+                    </div>
+                </div>
+            </div>
+            
+        
+            <div class="skills_container skills_container2">
+                <h1 class="skill_heading">Web Development</h1>
+                <div class="skills_subcontainer skills_container22">
+                    <div class="card">
+                       <i class="devicon-html5-plain colored"></i>
+                        <h1>Html</h1>
+                    </div>
+            
+                    <div class="card">
+                        <i class="devicon-css3-plain colored"></i>
+                        <h1>CSS</h1>
+                    </div>
+            
+                    <div class="card">
+                        <i class="devicon-javascript-plain colored"></i>
+                        <h1>JS</h1>
+                    </div>
+                    
+                </div>
+            </div>
+        
+        
+            <div class="skills_container skills_container3">
+                <h1 class="skill_heading">App Development</h1>
+                <div class="skills_subcontainer skills_container33">
+                    <div class="card">
+                        <i class="devicon-java-plain colored"></i>
+                        <h1>JAVA</h1>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="skills_container skills_container4">
+                <h1 class="skill_heading">Graphic Designing</h1>
+                <div class="skills_subcontainer skills_container44">
+                    <div class="card">     
+                        <i class="devicon-photoshop-plain colored"></i>
+                        <h1>PS</h1>
+                    </div>
+            
+                    <div class="card">
+                        <i class="devicon-premierepro-plain colored"></i>
+                        <h1>Premiere <br>Pro</br></h1>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="skills_container skills_container5">
+                <h1 class="skill_heading">Collaboration</h1>
+                <div class="skills_subcontainer skills_container55">
+                    <div class="card">     
+                        <i class="devicon-git-plain colored"></i>
+                        <h1>Git</h1>
+                    </div>
+            
+                    <div class="card">   
+                        
+                <i class="devicon-github-original"></i>
+              
+                        <h1>Github</h1>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="skills_container skills_container6">
+                <h1 class="skill_heading">IDE</h1>
+                <div class="skills_subcontainer skills_container66">
+                    <div class="card">     
+                        <i class="devicon-vscode-plain colored"></i>
+                        <h1>VS</h1>
+                    </div>
+            
+                    <div class="card">   
+                        <i class="devicon-intellij-plain colored"></i>
+                        <h1>Intellij</h1>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="skills_container skills_container7">
+                <h1 class="skill_heading">Database</h1>
+                <div class="skills_subcontainer skills_container77">
+                    <div class="card">        
+                        <i class="devicon-mysql-plain colored"></i>
+                        <h1>MySQL</h1>
+                    </div>
+                    <div class="card">                        
+                        <i class="devicon-firebase-plain colored"></i>
+                        <h1>Firebase</h1>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="skills_container skills_container8">
+                <h1 class="skill_heading">Others</h1>
+                <div class="skills_subcontainer skills_container77">
+                    <div class="card">                        
+                        <img src="microsoft_icons/icon_word.svg" />
+                        <h1>Office</h1>
+                    </div>
+                    <div class="card">                        
+                        <img src="microsoft_icons/icon_powerpoint.svg" />
+                        <h1>Powerpoint</h1>
+                    </div>
+                    <div class="card">                        
+                        <img src="microsoft_icons/icon_excel.svg" />
+                        <h1>Excel</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <section class="sect"  id="projects">
+        <h1 class="sub-title">Projects</h1>
+         <div class="proj_maincointainer">
+
+            <div class="proj_subcontainer">
+                <img class="proj_img" src="images/work1.png">
+
+                <div class="proj_description">
+                    <h3>Iron Man</h3>
+                    <p>A 2D 1vs1 fighting game set in the Marvel Cinematic Universe (C++ and igraphics.h framework)</p>
+                    <a href="https://github.com/SRRayhan066/Iron_Man" target="_blank">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+                
+            </div>
+
+            <div class="proj_subcontainer">
+                <img class="proj_img" src="images/work2.png">
+
+                <div class="proj_description">
+                    <h3>The Adventure of Link</h3>
+                    <p>A 2D top down game set in Zelda Universe (Java and LibGdx framework)</p>
+                    <a href="https://github.com/SRRayhan066/LINK-S-ADVENTURE-A-LONE-WARRIOR-"target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+                               
+            </div>
+            <div class="proj_subcontainer">
+                <img class="proj_img" src="images/work3.png">
+                
+                <div class="proj_description">
+                    <h3>Office Room</h3>
+                    <p>An android app to communicate with office workers (Java)</p>
+                    <a href="https://github.com/SRRayhan066/Project-Office-Room" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="proj_subcontainer">
+                <img class="proj_img" src="images/work4.png">
+                
+                <div class="proj_description">
+                    <h3>FTMS</h3>
+                    <p>Football tournament management system for SUST (MySql)</p>
+                    <a href="https://github.com/EvilMorty13/Sust-Football-Tournament-Management-System"target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+                
+            </div>
+
+            <div class="proj_subcontainer">
+                <img class="proj_img" src="images/work5.jpg">
+                <div class="proj_description">
+                    <h3>Portfolio</h3>
+                    <p>Portfolio website using HTML,CSS,Javascript</p>
+                    <a href="#"target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+         </div>
+    </section>
+
+    <section class="sect"  id="contact">
+        <h1 class="sub-title">Contact Me</h1>
+        <div class="cont_maincontainer">
+            <div class="left_subcontainer">
+
+                <img class="cont_img" src="images/contact_me.png">
+
+                <div class="left_details left_phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <p id="myPhone">0123456789</p>
+                    <i class="fa-solid fa-copy copy_phone"  onclick="copyPhone()"></i>
+                </div>     
+                 
+                <div class="left_details left_mail">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p id="myEmail">example@example.com</p>
+                    <i class="fa-solid fa-copy copy_email"  onclick="copyEmail()"></i>
+                </div>
+                
+                <div class="left_socials">
+                    <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/EvilMorty13" target="_blank"><i class="fa-brands fa-github"></i> </a>
+                    <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="" target="_blank"><i class="fa-brands fa-twitter"></i></i></a>
+                    <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+                    
+                   
+                </div>
+
+            </div>
+
+            <div class="right_subcontainer">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="copyright">
+
+        <p>Copyright</p>
+        <i class="fa-solid fa-copyright"></i>
+        <p>2023 by Avik Singha | All rights reserved</p>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type",{
+        strings:["Software Engineer","Game Developer","WEB Developer","Student"],
+        typeSpeed:100,
+        backSpeed:100,
+        loop:true
+        })
+    </script>
+
+
+</body>
+</html>
